@@ -1,0 +1,21 @@
+[package]
+name = "numbat-wasm-debug"
+version = "0.0.0"
+edition = "2018"
+
+authors = ["Andrei Marinica <andrei.marinica@numbat.com>", "Numbat Network<contact@numbat.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/numbatx/rn-sdk"
+homepage = "https://numbat.com/"
+documentation = "https://docs.numbat.com/"
+description = "Numbat WebAssembly smart contract API debugging mocks and utils"
+keywords = ["numbat", "blockchain", "contract", "debug"]
+categories = ["cryptography::cryptocurrencies", "development-tools::debugging"]
+
+[dependencies]
+numbat-wasm = { version = "0.0.0", path = "../numbat-wasm" }
+num-bigint = "0.2.3"
+num-traits = "0.2"
+hex = "0.4.0"
+sha3 = "0.8.2"

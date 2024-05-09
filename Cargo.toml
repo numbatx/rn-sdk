@@ -1,0 +1,8 @@
+[workspace]
+members = [
+  "numbat-wasm",
+  "numbat-wasm-debug",
+  "numbat-wasm-derive",
+  "numbat-wasm-node",
+  "numbat-wasm-serde",
+]
